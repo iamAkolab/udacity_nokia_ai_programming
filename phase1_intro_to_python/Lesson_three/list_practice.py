@@ -28,3 +28,18 @@ print(eclipse_dates[-3:])
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Choose the correct syntax to slice each of the following elements from the list: 
+
+arr = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
+# ['c', 'd', 'e', 'f']
+arr[2:6]
+
+['a', 'b', 'c']
+arr[:3]
+
+['e', 'f', 'g']
+arr[4:]
+
+# You understand list slicing! The lower index of a slice is inclusive and the upper index is exclusive. 
+# And leaving out the lower index starts the slice at 0, while leaving out the upper index ends the slice at the end of the list.
