@@ -18,3 +18,33 @@ list_of_random_things[len(list_of_random_things)]
 # ----> 1 lst[len(lst)]
 
 # IndexError: list index out of rang
+
+months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+q3 = months[6:9]
+print(q3) # [ 'July', 'August', 'September']
+
+first_half = months[:6]
+print(first_half) # ['January', 'February', 'March', 'April', 'May', 'June']
+
+second_half = months[6:]
+print(second_half) # ['July', 'August', 'September', 'October', 'November', 'December']
+
+print(len(months)) # 12
+
+greeting = "Hello there"
+print(len(greeting)) # 11
+
+# You saw that we can pull more than one value from a list at a time by using slicing. When using slicing, 
+# it is important to remember that the lower index is inclusive and the upper index is exclusive
+
+'this' in 'this is a string'
+# True
+'in' in 'this is a string'
+# True
+'isa' in 'this is a string'
+# False
+5 not in [1, 2, 3, 4, 6]
+# True
+5 in [1, 2, 3, 4, 6]
+# False
