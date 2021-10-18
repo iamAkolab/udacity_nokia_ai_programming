@@ -35,6 +35,8 @@ print(len(months)) # 12
 greeting = "Hello there"
 print(len(greeting)) # 11
 
+# ---------------------------------------------------------------------------
+# OR , IN & NOT IN 
 # You saw that we can pull more than one value from a list at a time by using slicing. When using slicing, 
 # it is important to remember that the lower index is inclusive and the upper index is exclusive
 
@@ -48,3 +50,24 @@ print(len(greeting)) # 11
 # True
 5 in [1, 2, 3, 4, 6]
 # False
+
+# ---------------------------------------------------------------------------
+# Mutability and Order
+# Mutability is about whether or not we can change an object once it has been created.
+# If an object (like a list or string) can be changed (like a list can), then it is called mutable. 
+# However, if an object cannot be changed with creating a completely new object (like strings), then the object is considered immutable.
+
+my_lst = [1, 2, 3, 4, 5]
+my_lst[0] = 'one'
+print(my_lst)
+# ['one', 2, 3, 4, 5]
+
+greeting = "Hello there"
+greeting[0] = 'M'
+# However, the following does not work: This is because strings are immutable. This means to change this string, you will need to create a completely new string.
+
+# There are two things to keep in mind for each of the data types you are using:
+
+#Are they mutable?
+# Are they ordered?
+# Order is about whether the position of an element in the object can be used to access the element. Both strings and lists are ordered
