@@ -28,3 +28,19 @@ elements =  {"hydrogen": {"number": 1,
                "oxygen": {"number": 8, 
                           "weight": 15.999, 
                           "symbol": "O"}}
+
+#----------------------------------------------------------------------------------------
+# practice 
+# Try your hand at working with nested dictionaries. Add another entry, 'is_noble_gas,' to each dictionary in the elements dictionary. 
+# After inserting the new entries you should be able to perform these lookups:
+
+# This is how I added values to the elements dict. The syntax for adding elements to nested data structures is about the same as it is for reading from them.
+
+elements['hydrogen']['is_noble_gas'] = False
+elements['helium']['is_noble_gas'] = True
+
+print(elements['hydrogen']['is_noble_gas'])
+# False
+
+print(elements['helium']['is_noble_gas'])
+# True
