@@ -1,1 +1,1 @@
-# udacity_nokia_ai_programming
+# Udacity Nokia AI Programming
