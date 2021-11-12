@@ -69,3 +69,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#-----------------------------------------------------------------------------------------------------------------
+# The Standard Library
+# You can discover new modules at the Python Module of the Week blog.https://pymotw.com/3/
