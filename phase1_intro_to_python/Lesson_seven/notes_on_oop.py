@@ -55,4 +55,38 @@ you'd have to go to every place in the code that accessed the variable directly 
 You can read more about get and set methods in Python on this Python Tutorial site. https://python-course.eu/oop/properties-vs-getters-and-setters.php """
 
 
-### 
+### Attributes
+
+# There are some drawbacks to accessing attributes directly versus writing a method for accessing attributes.
+
+# In terms of object-oriented programming, the rules in Python are a bit looser than in other programming languages. As previously mentioned, in some languages, like C++, 
+# you can explicitly state whether or not an object should be allowed to change or access an attribute's values directly. Python does not have this option.
+
+# Why might it be better to change a value with a method instead of directly? Changing values via a method gives you more flexibility in the long-term. 
+# What if the units of measurement change, like if the store was originally meant to work in US dollars and now has to handle Euros? Here's an example:
+
+# Example: Dollars versus Euros
+# If you've changed attribute values directly, you'll have to go through your code and find all the places where US dollars were used, such as in the following:
+
+shirt_one.price = 10 # US dollars
+# Then, you'll have to manually change them to Euros.
+
+shirt_one.price = 8 # Euros
+# If you had used a method, then you would only have to change the method to convert from dollars to Euros.
+
+
+def change_price(self, new_price):
+    self.price = new_price * 0.81 # convert dollars to Euros
+
+shirt_one.change_price(10)
+# For the purposes of this introduction to object-oriented programming, you don't need to worry about updating attributes directly versus with a method; 
+# however, if you decide to further your study of object-oriented programming, especially in another language such as C++ or Java, you'll have to take this into consideration.
+
+# Modularized code
+# Thus far in the lesson, all of the code has been in Jupyter Notebooks. For example, in the previous exercise, a code cell loaded the Shirt class, 
+# which gave you access to the shirt class throughout the rest of the notebook.
+
+# If you were developing a software program, you would want to modularize this code. You would put the Shirt class into its own Python script, 
+# which you might call shirt.py. In another Python script, you would import the Shirt class with a line like from shirt import Shirt.
+
+# For now, as you get used to OOP syntax, you'll be completing exercises in Jupyter Notebooks. Midway through the lesson, you'll modularize object-oriented code into separate files.
