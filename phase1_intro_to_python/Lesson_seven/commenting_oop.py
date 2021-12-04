@@ -16,7 +16,6 @@
 # You don't have to define self in your method docstrings. It's understood that any method will have self as the first method input.
 
 
-
 class Pants:
     """The Pants class represents an article of clothing sold in a store
     """
