@@ -2,7 +2,7 @@
 
 This section consists of all the lessons and projects you need to complete in order to receive your certificate.
 
---8 Parts   --2 Projects
+--8 Parts--   --2 Projects--
 
 * Introduction to AI Programming
 * Introduction to Python for AI Programmers
