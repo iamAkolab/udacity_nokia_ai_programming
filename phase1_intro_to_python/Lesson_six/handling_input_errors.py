@@ -1,4 +1,5 @@
 """
+
 Handling Input Errors
 The party_planner function below takes as input a number of party people and cookies and figures out how many cookies each person gets at the party, 
 assuming equitable distribution of cookies. Then, it returns that number along with how many cookies will be left over.
