@@ -1,6 +1,6 @@
 # Suggested Lesson Plan: Students With Extensive Coding Experience
 
-# Module 1: Introduction to AI Programming with Python
+## Module 1: Introduction to AI Programming with Python
   * At your leisure
 
 # Module 2: Intro to Python
