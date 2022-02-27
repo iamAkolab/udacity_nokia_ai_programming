@@ -1,4 +1,4 @@
-# Extracurricular
+# Extracurricular.
 
 This section consists of extra lessons and projects you can choose to complete in order to increase your chances of changing careers.
 
