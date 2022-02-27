@@ -1,4 +1,4 @@
-# Core Curriculum
+# Core Curriculum.
 
 This section consists of all the lessons and projects you need to complete in order to receive your certificate.
 
