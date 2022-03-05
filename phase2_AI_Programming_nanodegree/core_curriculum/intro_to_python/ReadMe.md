@@ -1,1 +1,1 @@
-# Intro to Python Course.
+# Intro to Python Course for AI Programmers.
