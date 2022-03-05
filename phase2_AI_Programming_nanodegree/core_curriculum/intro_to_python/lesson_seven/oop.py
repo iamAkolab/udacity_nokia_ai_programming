@@ -13,7 +13,7 @@ Scikit-learn, for example, is a relatively large and complex package built with 
 This package has expanded over the years with new functionality and new algorithms
 """
 
-##Object-oriented programming (OOP) vocabulary
+## Object-oriented programming (OOP) vocabulary
 """
 Class: A blueprint consisting of methods and attributes.
 Object: An instance of a class. It can help to think of objects as something in the real world like a yellow pencil, a small dog, or a blue shirt.
@@ -31,7 +31,9 @@ Function versus method
 A function and a method look very similar. They both use the def keyword. They also have inputs and return outputs. 
 The difference is that a method is inside of a class whereas a function is outside of a class.
 Finally, you'll write your own class.
+
 """
+
 class Shirt:
   def __init__(self, shirt_color, short_size, shirt_style, shirt_price):
     self.color = shirt_color
@@ -44,9 +46,11 @@ class Shirt:
     
   def discount(self, discount):
     return self.price * (1 - discount)
-  
+ 
+      
+      
 """
-What is self?
+# What is self?
 If you instantiate two objects, how does Python differentiate between these two objects?
 shirt_one = Shirt('red', 'S', 'short-sleeve', 15)
 shirt_two = Shirt('yellow', 'M', 'long-sleeve', 20)
