@@ -10,5 +10,8 @@
 * oop pt5 inheritance.ipynb
 * oop pt6 inheritance_probability_distribution.ipynb
 * modularized code folder
-* python_package_example
-* binomial_package
+* python_package_example folder
+* binomial_package folder
+* contributing to open source
+* putting code on PyPi
+
