@@ -30,7 +30,7 @@ Since we only need to use the time() and sleep() functions, we will only import 
 
 Such an import would look like the following:
 
-# Imports time() and sleep() functions from time module
+## Imports time() and sleep() functions from time module
 from time import time, sleep
 Using Time and Sleep Functions
 To time your code you will need to:
@@ -43,19 +43,19 @@ tot_time will be the total time your code ran in seconds
 sleep() is used in the code below to pause the program execution for 75 seconds. To time actual code, you'd replace sleep(75) with the code that you wanted to time.
 The code below demonstrates the use of time() and sleep().
 
-# Sets start time
+## Sets start time
 start_time = time()
 
-# Replace sleep(75) below with code you want to time
+## Replace sleep(75) below with code you want to time
 sleep(75)
 
-# Sets end time
+## Sets end time
 end_time = time()
 
-# Computes overall runtime in seconds
+## Computes overall runtime in seconds
 tot_time = end_time - start_time
 
-# Prints overall runtime in seconds
+## Prints overall runtime in seconds
 print("\nTotal Elapsed Runtime:", tot_time, "in seconds.")
 Formatting Time
 Likely you will want to format your runtime into a nice format like hh:mm:ss where:
@@ -79,7 +79,7 @@ seconds = int( ( (tot_time % 3600) % 60 ) )
  
 Below you will find code that will print the runtime in the format hh:mm:ss:
 
-# Prints overall runtime in format hh:mm:ss
+## Prints overall runtime in format hh:mm:ss
 print("\nTotal Elapsed Runtime:", str( int( (tot_time / 3600) ) ) + ":" +
           str( int(  ( (tot_time % 3600) / 60 )  ) ) + ":" + 
           str( int(  ( (tot_time % 3600) % 60 ) ) ) ) 
