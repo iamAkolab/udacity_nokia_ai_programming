@@ -83,5 +83,5 @@ Below you will find code that will print the runtime in the format hh:mm:ss:
 print("\nTotal Elapsed Runtime:", str( int( (tot_time / 3600) ) ) + ":" +
           str( int(  ( (tot_time % 3600) / 60 )  ) ) + ":" + 
           str( int(  ( (tot_time % 3600) % 60 ) ) ) ) 
-Note
+## Note
 Instead of rounding to the nearest second, our code using the int() function and will truncate the value of seconds. This means if your Total Runtime: 4.519087974567, then it would be formatted to Total Runtime: 0:0:4. If you instead want to round to the nearest second, you will want to replace the int() function with the round() function in calculating the number of seconds above.
