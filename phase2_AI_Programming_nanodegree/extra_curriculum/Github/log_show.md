@@ -94,3 +94,6 @@ However, git show can be combined with most of the other flags we've looked at:
 * --stat - to show the how many files were changed and the number of lines that were added/removed
 * -p or --patch - this the default, but if --stat is used, the patch won't display, so pass -p to add it again
 * -w - to ignore changes to whitespace
+
+
+ Try using git log --oneline to find the SHA of the commit in question. Then pass the SHA to either git log --stat or git show --stat.
