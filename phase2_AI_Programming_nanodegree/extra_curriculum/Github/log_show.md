@@ -68,3 +68,29 @@ lines that are green and start with a plus (+) are new lines that have been adde
 
 
 git log -p -w will show the patch information, but will not highlight lines where only whitespace changes have occurred.
+
+
+$ git log -p fdf5493
+By supplying a SHA, the git log -p command will start at that commit! No need to scroll through everything! Keep in mind that it will also show all of the commits that were made prior to the supplied SHA.
+
+
+## git show
+The other command that shows a specific commit is git show:
+
+$ git show
+Running it like the example above will only display the most recent commit. Typically, a SHA is provided as a final argument:
+
+$ git show fdf5493
+What does git show do?
+The git show command will show only one commit. So don't get alarmed when you can't find any other commits - it only shows one. The output of the git show command is exactly the same as the git log -p command. So by default, git show displays:
+
+* the commit
+* the author
+* the date
+* the commit message
+* the patch information
+However, git show can be combined with most of the other flags we've looked at:
+
+* --stat - to show the how many files were changed and the number of lines that were added/removed
+* -p or --patch - this the default, but if --stat is used, the patch won't display, so pass -p to add it again
+* -w - to ignore changes to whitespace
