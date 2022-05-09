@@ -11,7 +11,8 @@ the SHA
 the author
 the date
 and the message
-...of every commit in the repository. I stress the "By default" part of what Git displays because the git log command can display a lot more information than just this.
+...of every commit in the repository. I stress the "By default" part of what Git displays because 
+the git log command can display a lot more information than just this.
 
 Git uses the command line pager, Less, to page through all of the information. The important keys for Less are:
 
@@ -32,4 +33,16 @@ This command:
 * shows the commit's message
 
 
-Remember, the q key gets out of the git log view. We're still using git log but are just passing a flag to change how the information is displayed. So the q key still works and returns the terminal to the command prompt.
+## git log --stat
+The git log command has a flag that can be used to display the files that have been changed in the commit, 
+as well as the number of lines that have been added or deleted.
+
+
+Remember, the q key gets out of the git log view. We're still using git log but are just passing a flag to 
+change how the information is displayed. So the q key still works and returns the terminal to the command prompt.
+
+
+## git log -p
+The git log command has a flag that can be used to display the actual changes made to a file. The flag is --patch which can be shortened to just -p:
+
+$ git log -p
