@@ -46,6 +46,11 @@ change how the information is displayed. So the q key still works and returns th
 The git log command has a flag that can be used to display the actual changes made to a file. The flag is --patch which can be shortened to just -p:
 
 $ git log -p
+This command adds the following to the default output:
+
+* displays the files that have been modified
+* displays the location of the lines that have been added/removed
+* displays the actual changes that have been made
 
 Annotated git log -p Output
 Using the image above, let's do a quick recap of the git log -p output:
