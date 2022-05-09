@@ -1,5 +1,7 @@
-## Git Log Recap
+# Git Log Recap
 
+
+## git log
 The git log command is used to display all of the commits of a repository.
 
 $ git log
@@ -18,3 +20,16 @@ to scroll up by a line, use k or ↑
 to scroll down by a page, use the spacebar or the Page Down button
 to scroll up by a page, use b or the Page Up button
 to quit, use q
+
+## git log --oneline
+The git log command has a flag that can be used to alter how it displays the repository's information. 
+
+$ git log --oneline
+This command:
+
+* lists one commit per line
+* shows the first 7 characters of the commit's SHA
+* shows the commit's message
+
+
+Remember, the q key gets out of the git log view. We're still using git log but are just passing a flag to change how the information is displayed. So the q key still works and returns the terminal to the command prompt.
