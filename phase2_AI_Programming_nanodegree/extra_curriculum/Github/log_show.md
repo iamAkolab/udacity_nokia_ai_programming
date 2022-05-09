@@ -46,3 +46,20 @@ change how the information is displayed. So the q key still works and returns th
 The git log command has a flag that can be used to display the actual changes made to a file. The flag is --patch which can be shortened to just -p:
 
 $ git log -p
+
+Annotated git log -p Output
+Using the image above, let's do a quick recap of the git log -p output:
+
+🔵 - the file that is being displayed
+🔶 - the hash of the first version of the file and the hash of the second version of the file
+not usually important, so it's safe to ignore
+❤️ - the old version and current version of the file
+🔍 - the lines where the file is added and how many lines there are
+-15,83 indicates that the old version (represented by the -) started at line 15 and that the file had 83 lines
++15,85 indicates that the current version (represented by the +) starts at line 15 and that there are now 85 lines...these 85 lines are shown in the patch below
+✏️ - the actual changes made in the commit
+lines that are red and start with a minus (-) were in the original version of the file but have been removed by the commit
+lines that are green and start with a plus (+) are new lines that have been added in the commit
+
+
+git log -p -w will show the patch information, but will not highlight lines where only whitespace changes have occurred.
