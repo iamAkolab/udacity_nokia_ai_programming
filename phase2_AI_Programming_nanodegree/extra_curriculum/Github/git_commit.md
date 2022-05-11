@@ -34,4 +34,21 @@ TIP: If the commit message you're writing is short and you don't want to wait fo
 $ git commit -m "Initial commit"
 
 
+# Good Commit Messages
+
+
 https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git
+
+## Do
+
+* do keep the message short (less than 60-ish characters)
+* do explain what the commit does (not how or why!)
+
+
+## Do not
+
+* do not explain why the changes are made (more on this below)
+* do not explain how the changes are made (that's what git log -p is for!)
+* do not use the word "and"
+  * if you have to use "and", your commit message is probably doing too many changes - break the changes into separate commits
+  * e.g. "make the background color pink and increase the size of the sidebar"
