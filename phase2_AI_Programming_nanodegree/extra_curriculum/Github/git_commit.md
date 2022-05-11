@@ -16,7 +16,7 @@ $ git commit
 Code Editor Commit Message Explanation
 Ok, switch back to the code editor. Here's what's showing in my editor:
 
-
+<!---
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 # On branch master
@@ -28,6 +28,7 @@ Ok, switch back to the code editor. Here's what's showing in my editor:
 #    new file:   index.html
 #    new file:   js/app.js
 #
+-->
 
 Bypass The Editor With The -m Flag
 TIP: If the commit message you're writing is short and you don't want to wait for your code editor to open up to type it out, you can pass your message directly on the command line with the -m flag:
