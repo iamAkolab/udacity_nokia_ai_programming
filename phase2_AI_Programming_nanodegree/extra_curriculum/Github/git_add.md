@@ -1,4 +1,4 @@
-Big Picture Review
+# Big Picture Review
 That's really cool, isn't it! We haven't done anything specific with Git just yet, but it's watching this directory (since it's a Git project), and 
 it knows that we've created a couple of new files. What's also pretty neat about the output of the git status command is that it's telling us that 
 the files are untracked by Git.
@@ -11,7 +11,7 @@ Let's do a quick review of what's going on and what we're about to do:
 * the git add command is used to move files from the Working Directory to the Staging Index
 
 
-TIP: 
+## TIP: 
 
 Did you also notice the helpful text that's located just beneath "Changes to be committed"? It says (use "git rm --cached <file>..." to unstage) 
 This is a hint of what you should do if you accidentally ran git add and gave it the wrong file.
@@ -24,13 +24,13 @@ If a file has been moved, then it has been "staged". Moving a file from the Stag
 If you read documentation that says "stage the following files" that means you should use the git add command.
   
 
-Stage Remaining Files
+## Stage Remaining Files
 The index.html file has been staged. Let's stage the other two files. Now we could run the following:
 
 $ git add css/app.css js/app.js
 ...but that's a lot of extra typing. We could use a special command line character to help:
 
-The Period .
+## The Period .
 The period refers to the current directory and can be used as a shortcut to refer to all files and directories (including all nested files and directories!).
 
 $ git add css/app.css js/app.js
