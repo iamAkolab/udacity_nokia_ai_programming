@@ -34,7 +34,10 @@ $ git add css/app.css js/app.js
 The period refers to the current directory and can be used as a shortcut to refer to all files and directories (including all nested files and directories!).
 
 $ git add css/app.css js/app.js
-# would become
+
+would become
+  
+  
 $ git add .
   
   
