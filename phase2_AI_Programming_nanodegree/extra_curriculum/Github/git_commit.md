@@ -16,6 +16,7 @@ $ git commit
 Code Editor Commit Message Explanation
 Ok, switch back to the code editor. Here's what's showing in my editor:
 
+
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 # On branch master
@@ -52,3 +53,9 @@ https://docs.github.com/en/get-started/getting-started-with-git/associating-text
 * do not use the word "and"
   * if you have to use "and", your commit message is probably doing too many changes - break the changes into separate commits
   * e.g. "make the background color pink and increase the size of the sidebar"
+
+
+## Udacity's Commit Style Requirements
+As I've mentioned, there are a number of ways to write commit messages. If you're working on a team, they might already have a predetermined way of writing commit messages. Here at Udacity, we have our own standard for commit messages. You can check it out on our Git Commit Message Style Guide(https://classroom.udacity.com/nanodegrees/nd089/parts/ac9572c6-8411-4686-8f5c-523a54a2ac8e/modules/5df54f2e-1c9f-4b41-9bde-421b8c39b547/lessons/ac581121-67a3-4e2b-b61e-b8913954ab0d/concepts/61e5bc4c-5789-4617-bd52-08295bd5b193#:~:text=Udacity%27s%20Commit%20Style,consistent%20with%20us!).
+
+If you haven't chosen a commit message style, feel free to use ours. But if you're working on an existing project, use their existing style; it's much more important to be consistent with your actual team than to be consistent with us!
