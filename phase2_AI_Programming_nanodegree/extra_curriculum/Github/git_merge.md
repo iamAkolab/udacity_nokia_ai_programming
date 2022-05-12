@@ -86,3 +86,5 @@ moved forward to point to the same commit as the other branch.
 * Basic Merging from Git Book (https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merging)
 * git-merge from Git Docs (https://git-scm.com/docs/git-merge)
 * git merge from Atlassian blog (https://www.atlassian.com/git/tutorials/git-merge)
+  
+ ## Whichever branch the special HEAD pointer is pointing at, that's the branch that will have the merge commit.
