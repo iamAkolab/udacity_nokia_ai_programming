@@ -36,3 +36,9 @@ Git is using the merge conflict indicators to show you what lines caused the mer
 
 * choose which line(s) to keep
 * remove all lines with indicators
+
+
+## Commit Merge Conflict
+Once you've removed all lines with merge conflict indicators and have selected what heading you want to use, just save the file, add it to the staging index, and commit it! Just like with a regular merge, this will pop open your code editor for you to supply a commit message. Just like before, it's common to use the provided merge commit message, so after the editor opens, just close it to use the provided commit message.
+
+And that's it! Merge conflicts really aren't all that challenging once you understand what the merge conflict indicators are showing you.
