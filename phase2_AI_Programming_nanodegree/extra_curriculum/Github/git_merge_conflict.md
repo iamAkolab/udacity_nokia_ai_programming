@@ -26,12 +26,13 @@ Notice that right after the git merge heading-update command, it tries merging t
 ## Merge Conflict Indicators Explanation
 The editor has the following merge conflict indicators:
 
-<<<<<<< HEAD everything below this line (until the next indicator) shows you what's on the current branch
-||||||| merged common ancestors everything below this line (until the next indicator) shows you what the original lines were
-======= is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in
->>>>>>> heading-update is the ending indicator of what's on the branch that's being merged in (in this case, the heading-update branch)
-Resolving A Merge Conflict
+* <<<<<<< HEAD everything below this line (until the next indicator) shows you what's on the current branch
+* ||||||| merged common ancestors everything below this line (until the next indicator) shows you what the original lines were
+* ======= is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in
+* >>>>>>> heading-update is the ending indicator of what's on the branch that's being merged in (in this case, the heading-update branch)
+* 
+## Resolving A Merge Conflict
 Git is using the merge conflict indicators to show you what lines caused the merge conflict on the two different branches as well as what the original line used to have. So to resolve a merge conflict, you need to:
 
-choose which line(s) to keep
-remove all lines with indicators
+* choose which line(s) to keep
+* remove all lines with indicators
