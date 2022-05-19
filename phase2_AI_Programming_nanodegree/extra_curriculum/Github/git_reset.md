@@ -111,6 +111,6 @@ That's right! HEAD~4 references the fourth parent commit of the current one and 
 
   
 ## Further Research
-git-reset from Git docs (https://git-scm.com/docs/git-reset)
-Reset Demystified from Git Blog (https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
-Ancestry References from Git Book (https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#Ancestry-References)
+* git-reset from Git docs (https://git-scm.com/docs/git-reset)
+* Reset Demystified from Git Blog (https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
+* Ancestry References from Git Book (https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#Ancestry-References)
